@@ -18,9 +18,9 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gacha.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Mo-Pb-HMO">
                                 <rect key="frame" x="-18" y="168" width="450" height="678"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ガチャガチャ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGb-AR-QyZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ガチャガチャ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eGb-AR-QyZ">
                                 <rect key="frame" x="89" y="79" width="236" height="47"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -39,14 +39,15 @@
                         <constraints>
                             <constraint firstItem="eGb-AR-QyZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="3JN-XG-uQ6"/>
                             <constraint firstItem="6Mo-Pb-HMO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MaO-gp-sBH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eGb-AR-QyZ" secondAttribute="trailing" constant="89" id="OFF-iB-WSn"/>
-                            <constraint firstItem="eGb-AR-QyZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="T3w-ho-95i"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cWN-Ha-j34" secondAttribute="trailing" constant="171" id="VFL-b6-1hb"/>
-                            <constraint firstItem="6Mo-Pb-HMO" firstAttribute="top" secondItem="eGb-AR-QyZ" secondAttribute="bottom" constant="42" id="ZcH-rt-FPf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="eGb-AR-QyZ" secondAttribute="trailing" constant="89" id="OFF-iB-WSn"/>
+                            <constraint firstItem="eGb-AR-QyZ" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="T3w-ho-95i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="cWN-Ha-j34" secondAttribute="trailing" constant="171" id="VFL-b6-1hb"/>
+                            <constraint firstItem="6Mo-Pb-HMO" firstAttribute="top" relation="lessThanOrEqual" secondItem="eGb-AR-QyZ" secondAttribute="bottom" constant="42" id="ZcH-rt-FPf"/>
                             <constraint firstItem="cWN-Ha-j34" firstAttribute="top" secondItem="eGb-AR-QyZ" secondAttribute="bottom" constant="447" id="dWi-rd-A9T"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6Mo-Pb-HMO" secondAttribute="bottom" constant="16" id="fIP-XP-spK"/>
-                            <constraint firstItem="cWN-Ha-j34" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="171" id="omP-0f-b09"/>
+                            <constraint firstItem="cWN-Ha-j34" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="171" id="omP-0f-b09"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cWN-Ha-j34" secondAttribute="bottom" constant="241" id="peh-U0-pef"/>
+                            <constraint firstItem="cWN-Ha-j34" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sbv-O4-6h6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
